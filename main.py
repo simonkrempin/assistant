@@ -1,8 +1,5 @@
 import pyttsx3
-from decouple import config
-
-USERNAME = config('USER')
-BOTNAME = config('BOTNAME')
+from lib import greeting
 
 engine = pyttsx3.init('sapi5')
 
@@ -17,4 +14,4 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-speak("Duck")
+greeting(speak)
