@@ -8,7 +8,7 @@ welcome_message_by_time = {
     6: f"good night {env.USERNAME}" 
 }
 
-### great the user based on the day time
+### greet the user based on the day time
 def greet_user(speakMethod):
     hour = datetime.now().hour
 

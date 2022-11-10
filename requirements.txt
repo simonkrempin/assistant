@@ -4,3 +4,4 @@ pywhatkit
 wikipedia
 requests
 python-decouple
+pyaudio
