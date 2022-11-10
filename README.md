@@ -1,5 +1,21 @@
-# assistant
+# Assistant
  
-Installieren der Dependencies mit
+This is my approach on coding a personal assistant. You are welcome to fork the code and apply your own modules.
 
-```pip install -r requirements.txt``` || ```python3 -m pip install -r requirements.txt```
+Currently you will need to execute the entire programm on windows, linux is not supported at the moment.
+
+Python3.10.8
+
+Before your start, I would suggest that you set up virtual environment.
+
+```python -m venv env```
+
+Then you need to activate the env.
+
+```. env/Scripts/activate```
+
+Install the Dependencies from the requirements file.
+
+```pip install -r requirements.txt```
+
+Happy Coding!

@@ -2,19 +2,19 @@ from datetime import datetime
 import env
 
 welcome_message_by_time = {
-    12: f"guten Morgen {env.USERNAME}",
-    18: f"gute Mittag {env.USERNAME}",
-    22: f"guten Abend {env.USERNAME}",
-    6: f"gute Nacht {env.USERNAME}" 
+    12: f"good morning {env.USERNAME}",
+    18: f"good noon {env.USERNAME}",
+    22: f"good afternoon {env.USERNAME}",
+    6: f"good night {env.USERNAME}" 
 }
 
 ### great the user based on the day time
 def greet_user(speakMethod):
     hour = datetime.now().hour
 
-    for time, message in welcome_message_by_time:
-        if (hour > time):
+    for time, message in welcome_message_by_time.items():
+        if (hour < time):
             speakMethod(message)
             break
-    speakMethod("Wie kann ich dir helfen?")
+    speakMethod("How can I help you")
 
