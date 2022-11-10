@@ -4,9 +4,9 @@ This is my approach on coding a personal assistant. You are welcome to fork the 
 
 Currently you will need to execute the entire programm on windows, linux is not supported at the moment.
 
-Python3.10.8
+Python3.10.8 is being used for the project.
 
-Before your start, I would suggest that you set up virtual environment.
+Before you start, I would suggest that you set up virtual environment.
 
 ```python -m venv env```
 
